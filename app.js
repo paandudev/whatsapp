@@ -80,7 +80,7 @@ app.post('/',async(req, res) => {
 
 app.get('/',(req,res)=>{
     const verify_token = "whatsappToken";
-
+  console.log("api is working..........")
     // Parse params from the webhook verification request
     let mode = req.query["hub.mode"];
     let token = req.query["hub.verify_token"];
