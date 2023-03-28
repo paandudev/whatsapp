@@ -13,7 +13,7 @@ const token = "EAAIYr2ZBJEW8BANdD5gZAITTUHzcNarmTSJ2uaTBcrY7cv8U38dEuGt2UAgHLYLg
 
 var app = express();
 app = express().use(body_parser.json())
-app.listen(5000,()=>console.log('app started.........'))
+// app.listen(5000,()=>console.log('app started.........'))
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
