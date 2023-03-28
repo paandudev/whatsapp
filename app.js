@@ -98,7 +98,7 @@ app.get('/',(req,res)=>{
         res.sendStatus(403);
       }
     }else{
-        res.send('no mode  changed available here...')
+        res.send('no mode   available here...')
     }
 })
 
